@@ -1,7 +1,7 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/microlab
-    username: postgre
+    username: postgres
     password: 0742001
     driver-class-name: org.postgresql.Driver
   jpa:
