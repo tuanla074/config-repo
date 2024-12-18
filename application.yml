@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/microlab
     username: postgres
-    password: 0742001
+    password: 074201
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
