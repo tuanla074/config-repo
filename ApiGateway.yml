@@ -9,11 +9,11 @@ spring:
           filters:
             - RemoveRequestHeader=Authorization
         - id: order-service
-          uri: lb://ORDERSERVICE
+          uri: lb://OrderService
           predicates:
             - Path=/orders/**
         - id: payment-service
-          uri: lb://PAYMENTSERVICE
+          uri: lb://PaymentService
           predicates:
             - Path=/api/payments/**
         - id: default-service
