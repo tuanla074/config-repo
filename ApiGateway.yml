@@ -3,15 +3,15 @@ spring:
     gateway:
       routes:
         - id: login-service
-          uri: lb://LOGIN-SERVICE
+          uri: lb://LOGINSERVICE
           predicates:
             - Path=/api/users/**
         - id: order-service
-          uri: lb://ORDER-SERVICE
+          uri: lb://ORDERSERVICE
           predicates:
             - Path=/orders/**
         - id: payment-service
-          uri: lb://PAYMENT-SERVICE
+          uri: lb://PAYMENTSERVICE
           predicates:
             - Path=/api/payments/**
         - id: default-service
