@@ -19,4 +19,4 @@ spring:
           predicates:
             - Path=/**
 jwt:
-  secret: my-secret-key
+  secret: TzUwsEvGnlBVqDaXUqJQWLtKDyZUcoccWYLL3pKbUn4=y
