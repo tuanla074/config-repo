@@ -12,3 +12,6 @@ spring:
 
 jwt:
   secret: TzUwsEvGnlBVqDaXUqJQWLtKDyZUcoccWYLL3pKbUn4=y
+
+server:
+  port: 8082
