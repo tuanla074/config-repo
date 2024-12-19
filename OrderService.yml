@@ -1,12 +1,16 @@
+jwt:
+  secret: TzUwsEvGnlBVqDaXUqJQWLtKDyZUcoccWYLL3pKbUn4=y
+
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/microservices
     username: postgres
-    password: 0742001
+    password: secure_password
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+
 server:
-  port: 8082
+  port: 8083
