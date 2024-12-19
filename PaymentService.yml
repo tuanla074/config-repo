@@ -16,6 +16,3 @@ spring:
 
 server:
   port: 8084
-
-random:
-  pass: 0742001
