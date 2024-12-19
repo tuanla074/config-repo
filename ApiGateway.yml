@@ -15,7 +15,7 @@ spring:
           predicates:
             - Path=/api/payments/**
         - id: default-service
-          uri: http://<fallback-uri>
+          uri: http://localhost:8081
           predicates:
             - Path=/**
 jwt:
