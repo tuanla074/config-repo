@@ -5,19 +5,20 @@ spring:
         - id: login-service
           uri: lb://LOGIN-SERVICE
           predicates:
-            - Path=/api/login/**
+            - Path=/api/users/**
         - id: order-service
           uri: lb://ORDER-SERVICE
           predicates:
-            - Path=/api/orders/**
+            - Path=/orders/**
         - id: payment-service
           uri: lb://PAYMENT-SERVICE
           predicates:
             - Path=/api/payments/**
         - id: default-service
-          uri: http://localhost:8081
+          uri: http://8081
           predicates:
             - Path=/**
+
 jwt:
   secret: TzUwsEvGnlBVqDaXUqJQWLtKDyZUcoccWYLL3pKbUn4=y
 
